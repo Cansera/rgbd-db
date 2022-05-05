@@ -8,9 +8,30 @@ The dataset includes:
 - 64 RGB-D video recordings available on a shared OneDrive
 - Documentation explaining how the dataset was created in this README.md
 
+## Participants Demographics
+
+n = 64
+
+|                  | Category                | Count |    % |
+| ---------------- | ----------------------- | ----- | -----|
+| Age              | 18-49                   |       |      |
+|                  | 50-59                   |       |      |
+|                  | 60-69                   |       |      |
+|                  | 70+                     |       |      |
+| Sex              | Female                  |       |      |
+|                  | Male                    |       |      |
+| Race & Ethnicity | African American        |       |      |
+|                  | Asian                   |       |      |
+|                  | Caucasian               |       |      |
+|                  | Hispanics               |       |      |
+| IBW              | under IBW               |       |      |
+|                  | IBW to IBW + 15%        |       |      |
+|                  | IBW + 15% to IBW + 30%	 |       |      |
+|                  | over IBW + 30%.         |       |      |
+
 ## Chair to Table Task Set Up
 
-The chair to table tasks is defined as follows:
+Participants are asked to perform the chair to table task as follows:
 
 - Participants start seated in the chair and move to the highchair (hight of 30") placed 16" away
 - Participants are instructed to move when prompted and wait on the highchair until the end of the recording
@@ -24,7 +45,7 @@ Recordings can be replayed using the [Azure Kinect Viewer](https://docs.microsof
 
 RGB-D videos files are stored in a Cansera OneDrive due to their size. Please contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D videos.
 
-## Skeleton Files
+## Skeleton Data
 
 Skeleton JSON files are extracted from the `mkv` recording using the `offline_processor.exe` executable from the [Azure Kinect body tracking SDK](https://docs.microsoft.com/en-us/azure/kinect-dk/body-sdk-setup). Skeleton files are extracted offline for each frame which ensures a constant framerate. Skeleton files are in JSON format as produced by the `offline_processor.exe` and contain the following information:
 
