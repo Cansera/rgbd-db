@@ -10,24 +10,24 @@ The dataset includes:
 
 ## Participants Demographics
 
-n = 64
+n = 51
 
 |                  | Category                | Count |    % |
 | ---------------- | ----------------------- | ----- | -----|
-| Age              | 18-49                   | 25    |      |
-|                  | 50-59                   | 15    |      |
-|                  | 60-69                   | 6     |      |
-|                  | 70+                     | 5     |      |
-| Sex              | Female                  |       |      |
-|                  | Male                    |       |      |
-| Race & Ethnicity | African American        |       |      |
-|                  | Asian                   |       |      |
-|                  | Caucasian               |       |      |
-|                  | Hispanics               |       |      |
-| IBW              | under IBW               |       |      |
-|                  | IBW to IBW + 15%        |       |      |
-|                  | IBW + 15% to IBW + 30%	 |       |      |
-|                  | over IBW + 30%.         |       |      |
+| Age              | 18-49                   | 25    | 49   |
+|                  | 50-59                   | 15    | 29.4 |
+|                  | 60-69                   | 6     | 11.8 |
+|                  | 70+                     | 5     | 9.8  |
+| Sex              | Female                  | 28    | 54.9 |
+|                  | Male                    | 23    | 45.1 |
+| Race & Ethnicity | African American        | 9     | 17.7 |
+|                  | Asian                   | 8     | 15.7 |
+|                  | Caucasian               | 22    | 43.1 |
+|                  | Hispanics               | 12    | 23.5 |
+| IBW              | under IBW               | 13    | 25.5 |
+|                  | IBW to IBW + 15%        | 12    | 23.5 |
+|                  | IBW + 15% to IBW + 30%	 | 13    | 25.5 |
+|                  | over IBW + 30%.         | 13    | 25.5 |
 
 ## Chair to Table Task Set Up
 
