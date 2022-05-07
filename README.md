@@ -12,24 +12,27 @@ The dataset includes:
 
 n = 51
 
-|                  | Category                | Count |    % |
-| ---------------- | ----------------------- | ----- | -----|
-| Age              | 18-49                   | 25    | 49   |
-|                  | 50-59                   | 15    | 29.4 |
-|                  | 60-69                   | 6     | 11.8 |
-|                  | 70+                     | 5     | 9.8  |
-| Sex              | Female                  | 28    | 54.9 |
-|                  | Male                    | 23    | 45.1 |
-| Race & Ethnicity | African American        | 9     | 17.7 |
-|                  | Asian                   | 8     | 15.7 |
-|                  | Caucasian               | 22    | 43.1 |
-|                  | Hispanics               | 12    | 23.5 |
-| IBW              | under IBW               | 13    | 25.5 |
-|                  | IBW to IBW + 15%        | 12    | 23.5 |
-|                  | IBW + 15% to IBW + 30%	 | 13    | 25.5 |
-|                  | over IBW + 30%.         | 13    | 25.5 |
+|                  | Category               | Count |    % |
+| ---------------- | ---------------------- | ----- | -----|
+| Age              | 18-49                  | 25    | 49   |
+|                  | 50-59                  | 15    | 29.4 |
+|                  | 60-69                  | 6     | 11.8 |
+|                  | 70+                    | 5     | 9.8  |
+| Sex              | Female                 | 28    | 54.9 |
+|                  | Male                   | 23    | 45.1 |
+| Race & Ethnicity | African American       | 9     | 17.7 |
+|                  | Asian                  | 8     | 15.7 |
+|                  | Caucasian              | 22    | 43.1 |
+|                  | Hispanics              | 12    | 23.5 |
+| IBW              | under IBW              | 13    | 25.5 |
+|                  | IBW to IBW + 15%       | 12    | 23.5 |
+|                  | IBW + 15% to IBW + 30% | 13    | 25.5 |
+|                  | over IBW + 30%         | 13    | 25.5 |
 
-## Chair to Table Task Set Up
+
+## Collection Methods
+
+### Chair to Table Task Set Up
 
 Participants are asked to perform the chair to table task as follows:
 
@@ -37,7 +40,7 @@ Participants are asked to perform the chair to table task as follows:
 - Participants are instructed to move when prompted and wait on the highchair until the end of the recording
 - Participants are instructed not to cross legs or arms while seated
 
-## RGB-D Video Recordings
+### RGB-D Video Recordings
 
 Azure Kinect RGB-D videos are recorded using the [Azure Kinect Recorder k4arecorder.exe](https://docs.microsoft.com/en-us/azure/kinect-dk/azure-kinect-recorder) and last 20 seconds. Recordings are stored in the [Matroska](https://www.matroska.org/) file format with `kmv` file extension. Matroska defines a standard for multimedia container formats used by Azure Kinect to store RGB-D streams.
 
@@ -45,7 +48,7 @@ Recordings can be replayed using the [Azure Kinect Viewer](https://docs.microsof
 
 RGB-D videos files are stored in a Cansera OneDrive due to their size. Please contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D videos.
 
-## Skeleton Data
+### Skeleton Data
 
 Skeleton JSON files are extracted from the `mkv` recording using the `offline_processor.exe` executable from the [Azure Kinect body tracking SDK](https://docs.microsoft.com/en-us/azure/kinect-dk/body-sdk-setup). Skeleton files are extracted offline for each frame which ensures a constant framerate. Skeleton files are in JSON format as produced by the `offline_processor.exe` and contain the following information:
 
