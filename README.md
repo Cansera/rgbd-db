@@ -10,24 +10,24 @@ The dataset includes:
 
 ## Participants Demographics
 
-n = 51
+n = 60
 
 |                  | Category               | Count |    % |
 | ---------------- | ---------------------- | ----- | -----|
-| Age              | 18-49                  | 25    | 49   |
-|                  | 50-59                  | 15    | 29.4 |
-|                  | 60-69                  | 6     | 11.8 |
-|                  | 70+                    | 5     | 9.8  |
-| Sex              | Female                 | 28    | 54.9 |
-|                  | Male                   | 23    | 45.1 |
-| Race & Ethnicity | African American       | 9     | 17.7 |
-|                  | Asian                  | 8     | 15.7 |
-|                  | Caucasian              | 22    | 43.1 |
-|                  | Hispanics              | 12    | 23.5 |
-| IBW              | under IBW              | 13    | 25.5 |
-|                  | IBW to IBW + 15%       | 12    | 23.5 |
-|                  | IBW + 15% to IBW + 30% | 13    | 25.5 |
-|                  | over IBW + 30%         | 13    | 25.5 |
+| Age              | 18-49                  | 32    | 53.3 |
+|                  | 50-59                  | 17    | 28.3 |
+|                  | 60-69                  | 6     | 10.0 |
+|                  | 70+                    | 5     | 8.3  |
+| Sex              | Female                 | 34    | 56.7 |
+|                  | Male                   | 26    | 43.3 |
+| Race & Ethnicity | African American       | 9     | 15.0 |
+|                  | Asian                  | 10    | 16.7 |
+|                  | Caucasian              | 21    | 35.0 |
+|                  | Hispanics              | 20    | 33.3 |
+| IBW              | under IBW              | 19    | 31.7 |
+|                  | IBW to IBW + 15%       | 14    | 23.3 |
+|                  | IBW + 15% to IBW + 30% | 14    | 23.3 |
+|                  | over IBW + 30%         | 13    | 21.7 |
 
 
 ## Collection Methods
