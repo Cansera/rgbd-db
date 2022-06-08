@@ -4,8 +4,8 @@ This repository contains skeleton files and documentation for Cansera's Azure Ki
 
 The dataset includes:
 
-- 64 skeleton JSON files available in this repository
-- 64 RGB-D video recordings available on a shared OneDrive
+- 60 skeleton JSON files available in this repository
+- 60 RGB-D video recordings available on a shared OneDrive
 - Documentation explaining how the dataset was created in this README.md
 
 ## Participants Demographics
