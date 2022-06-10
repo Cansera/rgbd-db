@@ -10,7 +10,7 @@ The dataset includes:
 
 ## Participants Demographics
 
-n = 60
+n = 64
 
 |                  | Category               | Count |    % |
 | ---------------- | ---------------------- | ----- | -----|
