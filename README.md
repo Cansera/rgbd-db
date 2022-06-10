@@ -4,8 +4,8 @@ This repository contains skeleton files and documentation for Cansera's Azure Ki
 
 The dataset includes:
 
-- 60 skeleton JSON files available in this repository
-- 60 RGB-D video recordings available on a shared OneDrive
+- 64 skeleton JSON files available in this repository
+- 64 RGB-D video recordings available on a shared OneDrive
 - Documentation explaining how the dataset was created in this README.md
 
 ## Participants Demographics
@@ -14,20 +14,20 @@ n = 60
 
 |                  | Category               | Count |    % |
 | ---------------- | ---------------------- | ----- | -----|
-| Age              | 18-49                  | 32    | 53.3 |
-|                  | 50-59                  | 17    | 28.3 |
-|                  | 60-69                  | 6     | 10.0 |
-|                  | 70+                    | 5     | 8.3  |
-| Sex              | Female                 | 34    | 56.7 |
-|                  | Male                   | 26    | 43.3 |
-| Race & Ethnicity | African American       | 9     | 15.0 |
-|                  | Asian                  | 10    | 16.7 |
-|                  | Caucasian              | 21    | 35.0 |
-|                  | Hispanics              | 20    | 33.3 |
-| IBW              | under IBW              | 19    | 31.7 |
-|                  | IBW to IBW + 15%       | 14    | 23.3 |
-|                  | IBW + 15% to IBW + 30% | 14    | 23.3 |
-|                  | over IBW + 30%         | 13    | 21.7 |
+| Age              | 18-49                  | 36    | 56.3 |
+|                  | 50-59                  | 17    | 26.6 |
+|                  | 60-69                  | 6     | 9.4  |
+|                  | 70+                    | 5     | 7.8  |
+| Sex              | Female                 | 36    | 56.3 |
+|                  | Male                   | 28    | 43.7 |
+| Race & Ethnicity | African American       | 9     | 14.1 |
+|                  | Asian                  | 12    | 18.8 |
+|                  | Caucasian              | 22    | 34.4 |
+|                  | Hispanics              | 21    | 32.8 |
+| IBW              | under IBW              | 19    | 29.7 |
+|                  | IBW to IBW + 15%       | 15    | 23.4 |
+|                  | IBW + 15% to IBW + 30% | 16    | 25.0 |
+|                  | over IBW + 30%         | 14    | 21.9 |
 
 
 ## Collection Methods
@@ -61,7 +61,7 @@ joint_orientations: relative to the global depth sensor frame of reference
 
 Joint position: relative to the global depth sensor frame of reference. This is the mapping we use:
 
-body.joint_positions[0][0], body.joint_positions[0][1], body.joint_positions[0][2]: Pelvis coordinates
+body.joint_positions[0][0], - body.joint_positions[0][1], body.joint_positions[0][2]: Pelvis coordinates
 body.joint_positions[1][0], - body.joint_positions[1][1], body.joint_positions[1][2]: Spine Navel coordinates
 body.joint_positions[2][0], - body.joint_positions[2][1], body.joint_positions[2][2]: Spine Chest coordinates
 body.joint_positions[3][0], - body.joint_positions[3][1], body.joint_positions[3][2]: Neck coordinates
