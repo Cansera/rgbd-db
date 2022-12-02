@@ -29,7 +29,6 @@ n = 64
 |                  | IBW + 15% to IBW + 30% | 16    | 25.0 |
 |                  | over IBW + 30%         | 14    | 21.9 |
 
-
 ## Collection Methods
 
 ### Chair to Table Task Set Up
