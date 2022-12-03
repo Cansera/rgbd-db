@@ -4,32 +4,33 @@ This repository contains skeleton files and documentation for Cansera's Azure Ki
 
 The dataset includes:
 
-- 64 skeleton JSON files available in this repository
-- 64 RGB-D video recordings available on a shared OneDrive
-- Documentation explaining how the dataset was created in this README.md
+- Azure_Kinect: Azure Kinect skeleton JSON files
+- AX6: [Axivity AX6](https://axivity.com/product/ax6) files for a subset of the Azure Kinect recordings
 
-## Participants Demographics
+RGB-D video recordings can be made available on request
 
-n = 64
+## Demographics
+
+n = 104
 
 |                  | Category               | Count |    % |
 | ---------------- | ---------------------- | ----- | -----|
-| Age              | 18-49                  | 36    | 56.3 |
-|                  | 50-59                  | 17    | 26.6 |
-|                  | 60-69                  | 6     | 9.4  |
-|                  | 70+                    | 5     | 7.8  |
-| Sex              | Female                 | 36    | 56.3 |
-|                  | Male                   | 28    | 43.7 |
-| Race & Ethnicity | African American       | 9     | 14.1 |
-|                  | Asian                  | 12    | 18.8 |
-|                  | Caucasian              | 22    | 34.4 |
-|                  | Hispanics              | 21    | 32.8 |
-| IBW              | under IBW              | 19    | 29.7 |
-|                  | IBW to IBW + 15%       | 15    | 23.4 |
-|                  | IBW + 15% to IBW + 30% | 16    | 25.0 |
-|                  | over IBW + 30%         | 14    | 21.9 |
+| Age              | 18-49                  | 56    | 53.8% |
+|                  | 50-59                  | 27    | 26.0% |
+|                  | 60-69                  | 16    | 15.4% |
+|                  | 70+                    | 5     | 4.8%  |
+| Sex              | Female                 | 46    | 44.2% |
+|                  | Male                   | 58    | 55.8% |
+| Race & Ethnicity | African American       | 9     | 8.7%  |
+|                  | Asian                  | 32    | 30.8% |
+|                  | Caucasian              | 42    | 40.4% |
+|                  | Hispanics              | 21    | 20.2% |
+| IBW              | under IBW              | 19    | 18.3% |
+|                  | IBW to IBW + 15%       | 15    | 14.4% |
+|                  | IBW + 15% to IBW + 30% | 47    | 45.2% |
+|                  | over IBW + 30%         | 23    | 22.1% |
 
-## Collection Methods
+## Methods
 
 ### Chair to Table Task Set Up
 
@@ -38,14 +39,15 @@ Participants are asked to perform the chair to table task as follows:
 - Participants start seated in the chair and move to the highchair (hight of 30") placed 16" away
 - Participants are instructed to move when prompted and wait on the highchair until the end of the recording
 - Participants are instructed not to cross legs or arms while seated
+- AX6 recordings were performed using the sensor clipped to the waist
 
-### RGB-D Video Recordings
+### RGB-D Recordings
 
 Azure Kinect RGB-D videos are recorded using the [Azure Kinect Recorder k4arecorder.exe](https://docs.microsoft.com/en-us/azure/kinect-dk/azure-kinect-recorder) and last 20 seconds. Recordings are stored in the [Matroska](https://www.matroska.org/) file format with `kmv` file extension. Matroska defines a standard for multimedia container formats used by Azure Kinect to store RGB-D streams.
 
 Recordings can be replayed using the [Azure Kinect Viewer](https://docs.microsoft.com/en-us/azure/kinect-dk/azure-kinect-viewer): start the viewer, click `Open Recording` to load a `kmv` file.
 
-RGB-D videos files are stored in a Cansera OneDrive due to their size. Please contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D videos.
+RGB-D videos files are stored in a Cansera OneDrive due to their size. Please contact [nocera@cansera.com](mailto:nocera@cansera.com).
 
 ### Skeleton Data
 
@@ -98,4 +100,11 @@ frame_id: frame number starting at 0
 num_bodies: total number of bodies detected in each frame
 
 timestamp_usec: unix timestamp in microsecond detected in each frame
+```
+
+### AX6 Data
+
+AX6 recordings are in CSV format with no headers with the following information in each row:
+```plain-text
+date time, acceleration x, acceleration y, acceleration z
 ```
