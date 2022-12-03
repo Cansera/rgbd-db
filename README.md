@@ -4,17 +4,18 @@ This repository contains skeleton files and documentation for Cansera's Azure Ki
 
 The dataset includes:
 
-- Azure_Kinect: Azure Kinect skeleton JSON files
+- AK: Azure Kinect skeleton JSON files
 - AX6: [Axivity AX6](https://axivity.com/product/ax6) files for a subset of the Azure Kinect recordings
+- demographics.csv: participants demographics
 
-RGB-D video recordings can be made available on request
+RGB-D video recordings are made available on request.
 
 ## Demographics
 
 n = 104
 
-|                  | Category               | Count |    % |
-| ---------------- | ---------------------- | ----- | -----|
+|                  | Category               | Count |    %  |
+| ---------------- | ---------------------- | ----- | ----- |
 | Age              | 18-49                  | 56    | 53.8% |
 |                  | 50-59                  | 27    | 26.0% |
 |                  | 60-69                  | 16    | 15.4% |
@@ -47,7 +48,7 @@ Azure Kinect RGB-D videos are recorded using the [Azure Kinect Recorder k4arecor
 
 Recordings can be replayed using the [Azure Kinect Viewer](https://docs.microsoft.com/en-us/azure/kinect-dk/azure-kinect-viewer): start the viewer, click `Open Recording` to load a `kmv` file.
 
-RGB-D videos files are stored in a Cansera OneDrive due to their size. Please contact [nocera@cansera.com](mailto:nocera@cansera.com).
+Contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D recordings.
 
 ### Skeleton Data
 
@@ -105,6 +106,7 @@ timestamp_usec: unix timestamp in microsecond detected in each frame
 ### AX6 Data
 
 AX6 recordings are in CSV format with no headers with the following information in each row:
+
 ```plain-text
 date time, acceleration x, acceleration y, acceleration z
 ```

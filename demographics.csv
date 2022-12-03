@@ -1,0 +1,105 @@
+id,gender,age,ethnicity,ibw_category,height_ft,height_in,weight
+43e1d47,Female,18-49,Hispanics,IBW to IBW + 15%,5,6,135
+43e1d4a,Female,18-49,Hispanics,under IBW,5,0,98
+43e1d60,Male,18-49,Caucasian,IBW + 15% to IBW + 30%,5,9,180
+4f6d018,Female,18-49,Caucasian,over IBW + 30%,5,5,170
+43e1d37,Male,18-49,Caucasian,under IBW,6,4,178
+edc402c,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc402d,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc402e,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc402f,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4030,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4031,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4032,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4033,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4034,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+edc4035,Male,50-59,Caucasian,IBW to IBW + 15%,5,8,155
+4f6d017,Male,50-59,Asian,IBW to IBW + 15%,5,9,162
+43e1d4c,Female,18-49,Hispanics,over IBW + 30%,5,0,270
+edc4023,Female,18-49,Hispanics,IBW + 15% to IBW + 30%,5,3,140
+43e1d42,Female,70+,Caucasian,IBW to IBW + 15%,5,6,145
+43e1d39,Male,18-49,Hispanics,under IBW,5,7,140
+43e1d3c,Male,50-59,Caucasian,IBW to IBW + 15%,5,6,150
+43e1d5d,Male,18-49,Caucasian,IBW to IBW + 15%,6,0,180
+43e1d4e,Female,18-49,African American,IBW to IBW + 15%,5,6,150
+43e1d54,Male,50-59,Asian,over IBW + 30%,5,8,200
+edc4025,Female,18-49,Hispanics,over IBW + 30%,5,3,175
+43e1d3f,Male,50-59,Caucasian,IBW to IBW + 15%,5,11,188
+edc402a,Male,18-49,Asian,IBW to IBW + 15%,5,7,150
+43e1d59,Female,18-49,Asian,over IBW + 30%,5,6,183
+43e1d61,Male,18-49,African American,IBW + 15% to IBW + 30%,6,0,220
+43e1d3a,Male,70+,Caucasian,IBW + 15% to IBW + 30%,6,0,218
+43e1d43,Female,18-49,Asian,IBW + 15% to IBW + 30%,5,1,127
+43e1d5a,Female,60-69,Caucasian,under IBW,5,5,120
+43e1d51,Female,60-69,Asian,under IBW,5,3,115
+43e1d62,Female,18-49,Asian,IBW to IBW + 15%,5,6,139
+edc4022,Female,50-59,Hispanics,over IBW + 30%,5,0,168
+edc4036,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc4037,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc4038,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc4039,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403a,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403b,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403c,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403d,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403e,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+edc403f,Male,60-69,Caucasian,IBW to IBW + 15%,5,7,149
+e88b8f2,Male,50-59,Caucasian,IBW to IBW + 15%,5,7,150
+edc4024,Male,18-49,Hispanics,over IBW + 30%,5,10,250
+43e1d5c,Male,50-59,Hispanics,IBW + 15% to IBW + 30%,5,9,190
+edc4021,Female,18-49,Hispanics,over IBW + 30%,5,1,160
+edc401f,Female,18-49,Hispanics,over IBW + 30%,5,5,192
+43e1d4b,Female,18-49,Hispanics,IBW + 15% to IBW + 30%,5,1,135
+43e1d5f,Female,60-69,Hispanics,over IBW + 30%,5,4,190
+43e1d55,Female,50-59,Hispanics,under IBW,5,4,110
+43e1d52,Female,50-59,African American,over IBW + 30%,5,4,225
+43e1d56,Male,18-49,Caucasian,IBW + 15% to IBW + 30%,5,10,195
+43e1d57,Female,50-59,Caucasian,IBW + 15% to IBW + 30%,5,8,170
+43e1d46,Male,70+,Caucasian,IBW + 15% to IBW + 30%,5,8,183
+43e1d3e,Female,50-59,Caucasian,under IBW,5,7,125
+43e1d58,Female,60-69,Caucasian,IBW to IBW + 15%,5,5,138
+edc4028,Female,18-49,Hispanics,IBW + 15% to IBW + 30%,5,10,180
+43e1d3d,Female,50-59,Caucasian,IBW to IBW + 15%,5,5,140
+edc402b,Female,18-49,Caucasian,IBW to IBW + 15%,5,3,120
+39c1d3f,Male,18-49,African American,under IBW,6,0,160
+43e1d41,Female,18-49,Caucasian,over IBW + 30%,5,10,200
+43e1d4d,Male,18-49,African American,under IBW,6,3,175
+6f248e2,Male,18-49,Hispanics,IBW + 15% to IBW + 30%,5,11,210
+43e1d53,Female,50-59,African American,over IBW + 30%,5,5,180
+43e1d5b,Male,60-69,Caucasian,IBW + 15% to IBW + 30%,5,9,182
+43e1d36,Male,18-49,Asian,IBW to IBW + 15%,5,8,155
+edc401d,Male,18-49,Asian,over IBW + 30%,5,9,245
+edc401e,Male,50-59,Hispanics,IBW to IBW + 15%,5,7,155
+43e1d50,Male,50-59,African American,IBW + 15% to IBW + 30%,5,11,215
+43e1d44,Male,18-49,Caucasian,under IBW,6,3,185
+edc4029,Male,18-49,Asian,under IBW,6,0,154
+43e1d5e,Female,50-59,Hispanics,over IBW + 30%,5,4,240
+edc4020,Female,18-49,Hispanics,IBW + 15% to IBW + 30%,5,5,160
+edc4040,Female,18-49,Asian,under IBW,5,7,129
+edc4041,Female,18-49,Asian,under IBW,5,7,129
+edc4042,Female,18-49,Asian,under IBW,5,7,129
+edc4043,Female,18-49,Asian,under IBW,5,7,129
+edc4044,Female,18-49,Asian,under IBW,5,7,129
+edc4045,Female,18-49,Asian,under IBW,5,7,129
+edc4046,Female,18-49,Asian,under IBW,5,7,129
+edc4047,Female,18-49,Asian,under IBW,5,7,129
+edc4048,Female,18-49,Asian,under IBW,5,7,129
+edc4049,Female,18-49,Asian,under IBW,5,7,129
+4f6d015,Female,18-49,Asian,under IBW,5,7,129
+43e1d4f,Female,50-59,African American,over IBW + 30%,6,0,245
+43e1d45,Female,70+,Caucasian,IBW to IBW + 15%,5,7,145
+43e1d40,Male,70+,African American,under IBW,6,0,145
+43e1d38,Female,60-69,Caucasian,over IBW + 30%,5,5.5,210
+43e1d49,Female,18-49,Hispanics,over IBW + 30%,5,1,157
+43e1d48,Female,18-49,Hispanics,over IBW + 30%,5,1,170
+edc4026,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc404b,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc404c,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc404d,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc404e,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc404f,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc4050,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc4051,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc4052,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc4053,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
+edc4054,Male,18-49,Asian,IBW to IBW + 15%,5,7,160
