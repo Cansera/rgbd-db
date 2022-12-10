@@ -4,7 +4,7 @@ This repository contains skeleton files and documentation for Cansera's Azure Ki
 
 The dataset includes:
 
-- AK: Azure Kinect skeleton JSON files
+- AK: [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/) skeleton JSON files
 - AX6: [Axivity AX6](https://axivity.com/product/ax6) files for a subset of the Azure Kinect recordings
 - demographics.csv: participants demographics
 
