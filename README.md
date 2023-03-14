@@ -1,11 +1,11 @@
-# RGB-D Image Dataset
+# RGBD-DB Dataset
 
-This repository contains skeleton files and documentation for Cansera's Azure Kinect RGB-D image dataset.
+This repository Cansera's RGBD-DB image dataset and documentation for .
 
 The dataset includes:
 
 - AK: [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/) skeleton JSON files
-- AX6: [Axivity AX6](https://axivity.com/product/ax6) files for a subset of the Azure Kinect recordings
+- AX6: [Axivity AX6](https://axivity.com/product/ax6) files acquired for a subset of the Azure Kinect recordings
 - demographics.csv: participants demographics
 
 RGB-D video recordings are made available on request.
@@ -35,7 +35,7 @@ n = 104
 
 ### Chair to Table Task Set Up
 
-Participants are asked to perform the chair to table task as follows:
+Participants were asked to perform the chair to table task as follows:
 
 - Participants start seated in the chair and move to the highchair (hight of 30") placed 16" away
 - Participants are instructed to move when prompted and wait on the highchair until the end of the recording
