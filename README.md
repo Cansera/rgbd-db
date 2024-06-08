@@ -4,15 +4,15 @@ This repository Cansera's RGBD-DB image dataset and documentation for .
 
 The dataset includes:
 
-- AK: [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/) skeleton JSON files
-- AX6: [Axivity AX6](https://axivity.com/product/ax6) files acquired for a subset of the Azure Kinect recordings
+- AK: [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/) skeleton JSON files (n = 104)
+- AX6: [Axivity AX6](https://axivity.com/product/ax6) files acquired for a subset of the Azure Kinect recordings (n = 40)
 - demographics.csv: participants demographics
 
 RGB-D video recordings are made available on request.
 
 ## Demographics
 
-n = 104
+n = 64
 
 |                  | Category               | Count |    %  |
 | ---------------- | ---------------------- | ----- | ----- |
@@ -48,7 +48,7 @@ Azure Kinect RGB-D videos are recorded using the [Azure Kinect Recorder k4arecor
 
 Recordings can be replayed using the [Azure Kinect Viewer](https://docs.microsoft.com/en-us/azure/kinect-dk/azure-kinect-viewer): start the viewer, click `Open Recording` to load a `kmv` file.
 
-Contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D recordings.
+Contact [nocera@cansera.com](mailto:nocera@cansera.com) for access to the RGB-D videos.
 
 ### Skeleton Data
 
